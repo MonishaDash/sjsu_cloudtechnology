@@ -78,108 +78,97 @@
         <div class="box">
             <div class="col-lg-12 text-center">
                 <div id="carousel-example-generic" class="carousel slide">
-                                      <!-- Wrapper for slides -->
+                    <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="container">
                             <div class="row">
                                 <div class="col-sm-4 col-sm-offset-1">
                                     <div class="login-form"><!--login form-->
                                         <div class="container">
-                                            <h2 align="left">Tester Information</h2>
+                                            <h2 align="left">App Information</h2>
                                             <ul class="nav nav-tabs">
-                                                <li class="active"><a data-toggle="tab" href="#Experience">Experience</a></li>
-                                                <li><a data-toggle="tab" href="#TestingExpertise">Testing Expertise</a></li>
-                                                <li><a data-toggle="tab" href="#DeviceDetails">Devices Information</a></li>
-                                                <li><a data-toggle="tab" href="#BankDetails">Bank Details</a></li>
+                                                <li class="active"><a data-toggle="tab" href="#Appproviderdetail">App Provider Details</a></li>
+                                                <li><a data-toggle="tab" href="#AppDetails">App Details</a></li>
+                                                <li><a data-toggle="tab" href="#DeviceDetails">Testing details</a></li>
+                                                <li><a data-toggle="tab" href="#EstimationSummary">Estimation Summary</a></li>
+                                                <li><a data-toggle="tab" href="#DocumentDetails">Documents Submission</a></li>
                                             </ul>
 
                                             <div class="tab-content">
-                                                <div id="Experience" class="tab-pane fade in active col-sm-4">
-                                                    <form class="login-form ">
-                                                    <h3 >Experience</h3><br><br>
+                                                <div id="appproviderdetail" class="tab-pane fade in active col-sm-4 ">
+                                                    <form clas="login-form">
+                                                        <h3 >Comapany Information</h3>
 
-
-                                                     <b>Years Of Experience:</b>
-                                                      <Input type="number" placeholder="Years Of Experience">
+                                                      <Input type="text" placeholder="Organisation Name">
 
                                                   <br><br>
 
+                                                        <input type="text" placeholder="Company Name" /><br><br>
+                                                        <div class="btn-group">
 
-                                                            <b>Types Of Testing:</b>
-                                                            <div class="checkbox">
-                                                                <label><input type="checkbox" value="" >Functional</label>
-                                                            </div>
-                                                            <div class="checkbox">
-                                                             <label><input type="checkbox" value="">Unit</label>
-                                                            </div>
-                                                            <div class="checkbox">
-                                                                <label><input type="checkbox" value="">Performance</label>
-                                                            </div>
-                                                            <div class="checkbox">
-                                                            <label><input type="checkbox" value="">Usability</label>
-                                                            </div>
-                                                        <div class="checkbox">
-                                                            <label><input type="checkbox" value="">Security</label>
-                                                        </div>
+                                                            <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+                                                                Select Your Domain
+                                                                <span class="caret"></span>
+                                                            </button>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Finance</a></li>
+                                                                <li><a href="#">Shopping</a></li>
+                                                                <li><a href="#">Education</a></li>
 
-                                                    <br><br>
+                                                            </ul>
+
+                                                        </div><br><br>
 
 
+                                                        <div class="btn-group">
 
-                                                            <b>Application Types:</b>
-                                                            <div class="checkbox">
-                                                                <label><input type="checkbox" value="">Desktop</label>
-                                                            </div>
-                                                            <div class="checkbox">
-                                                                <label><input type="checkbox" value="">Mobile</label>
-                                                            </div>
-                                                            <div class="checkbox disabled">
-                                                                <label><input type="checkbox" value="">Web</label>
-                                                            </div>
+                                                            <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+                                                                Select Bank
+                                                                <span class="caret"></span>
+                                                            </button>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Bank Of America</a></li>
+                                                                <li><a href="#">Citi Bank</a></li>
+                                                            </ul>
 
-
-                                                    <br><br>
-
-
-                                                        <b>Language Known:</b>
-                                                        <div class="checkbox">
-                                                            <label><input type="checkbox" value="">English</label>
-                                                        </div>
-                                                         <div class="checkbox">
-                                                           <label><input type="checkbox" value="">French</label>
-                                                         </div>
-                                                            <div class="checkbox disabled">
-                                                                <label><input type="checkbox" value="">Japanese</label>
-                                                            </div>
-
-                                                    <br><br>
-
-
-                                                            <div class="form-inline">
-
-                                                                <div class="form-group">
-                                                                    <input type="file" name="files[]" id="js-upload-files">
-                                                                </div><br><br>
-                                                                <button type="submit" class="btn btn-sm btn-primary" id="js-upload-submit">Upload Resume</button>
-
-                                                            </div>
-                                                        <br><br>
+                                                        </div><br><br>
 
                                                         <button type="submit" class="btn btn-default">Save</button>
 
                                                     </form>
 
-
-
                                                 </div>
 
-                                                <div id="TestingExpertise" class="tab-pane fade">
-                                                    <h3>TestingExpertise</h3>
-                                                    <p>Data will Be populated via  javascript</p>
+                                                <div id="AppDetails" class=" col-sm-4 tab-pane fade">
+                                                    <h3>App Details</h3>
+                                                    <Span>
+                                                        App Name
+                                                    <Input type="text" placeholder="Organisation Name">
+                                                        </Span>
+
+                                                    <div class="btn-group">
+
+                                                        <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+                                                            App Domain
+                                                            <span class="caret"></span>
+                                                        </button>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#">Finance</a></li>
+                                                            <li><a href="#">Shopping</a></li>
+                                                            <li><a href="#">Education</a></li>
+
+                                                        </ul>
+
+
+
+
+                                                    </div><br><br>
+
+
                                                 </div>
 
                                                 <div id="DeviceDetails" class=" col-sm-4 tab-pane fade">
-                                                    <h3>Mobile and Tab Details</h3>
+                                                    <h3>Mobile and Tab Details you need to test your App </h3>
                                                     <span>
                                                         <button type="submit" class="btn btn-default">Add</button>
                                                         <button type="submit" class="btn btn-danger">Delete</button>
@@ -246,39 +235,64 @@
                                                     <button type="submit" class="btn btn-default">Save</button>
 
 
+                                                </div>
+                                                <div id="EstimationSummary" class="tab-pane fade">
+                                                    <h3>Estimation Summary</h3>
+                                                    <div class="container">
+                                                    <table class="table table-hover">
+                                                        <thead>
+                                                        <tr>
+                                                            <th>Firstname</th>
+                                                            <th>Lastname</th>
+                                                            <th>Email</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <td>John</td>
+                                                            <td>Doe</td>
+                                                            <td>john@example.com</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Mary</td>
+                                                            <td>Moe</td>
+                                                            <td>mary@example.com</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>July</td>
+                                                            <td>Dooley</td>
+                                                            <td>july@example.com</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
                                                         </div>
 
 
-                                                <div id="BankDetails" class="tab-pane fade col-sm-4">
-                                                    <h3>Bank Account Details</h3><br>
 
-                                                    <div class="btn-group">
-                                                        <span>
-                                                            Bank Name
-                                                        <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
-                                                            Select Bank
-                                                            <span class="caret"></span>
-                                                        </button>
-                                                        <ul class="dropdown-menu">
-                                                            <li><a href="#">Bank Of America</a></li>
-                                                            <li><a href="#">Citi Bank</a></li>
-                                                        </ul>
-                                                            </span>
-                                                    </div><br><br>
+                                                </div>
 
-                                                     <Span>
-                                                      Account Holder Name
-                                                      <Input type="text" placeholder="Enter Account Holder Name">
+
+                                                <div id="DocumentDetails" class="tab-pane fade col-sm-4">
+
+                                                    <h3>Submit your Documents</h3><br>
+
+                                                    <Span>
+                                                      File Name
+                                                      <Input type="text" placeholder="Enter File Name">
 
                                                   </Span><br><br>
 
-                                                     <Span>
-                                                      Account Number
-                                                      <Input type="number" placeholder="Account Number">
+                                                    <form action="" method="post" enctype="multipart/form-data" id="js-upload-form">
+                                                        <div class="form-inline">
 
-                                                  </Span><br><br>
+                                                            <div class="form-group">
+                                                                <input type="file" name="files[]" id="js-upload-files">
+                                                            </div><br><br>
+                                                            <button type="submit" class="btn btn-sm btn-primary" id="js-upload-submit">Upload files</button>
 
-                                                    <button type="submit" class="btn btn-default">Save</button>
+                                                        </div>
+                                                    </form>
+
 
                                                 </div>
                                             </div>
@@ -287,13 +301,13 @@
                                 </div>
 
 
-                                    <!-- Controls -->
-                                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                <!-- Controls -->
+                                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
 
-                                    </a>
-                                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                </a>
+                                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
 
-                                    </a>
+                                </a>
                             </div>
                             <h2 class="brand-before">
                                 <small>Welcome to</small>
